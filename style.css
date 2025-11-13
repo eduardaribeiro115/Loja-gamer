@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 10;
     background-color: black; 
 
 }
@@ -10,6 +10,8 @@ li a{
 text-decoration: none; /*remove o sublinhado */
 font-size: 20px;
 color: #ffffff; 
+padding: 25px;
+
 }
 
 li{
@@ -19,13 +21,46 @@ li{
 #logo{
 
     height: 100px;
-    width: 180px;
+    width: 170px;
 
 }
-
 
 ul{
     display: flex;
     flex-direction: row;
 }
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.caixa-img-logo{
+    height: 0px;
+    width: 90px;
+}
+
+.bi{
+    font-size: 35px;
+    color: white;
+}
+
+
+
+.banner{
+    background-image: url("assetes/banner.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+    width: 900px;
+    border-radius: 25px;
+}
+
+svg {
+      width: 40px;
+      height: 40px;
+      fill: white;
+    }
     
