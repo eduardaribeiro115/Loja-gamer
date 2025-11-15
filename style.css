@@ -64,3 +64,19 @@ svg {
       fill: white;
     }
     
+    .section-center{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .estrutura-titulo{
+        justify-content: center;
+        display: flex;
+    }
+
+
+    .titulo{
+        color: #ffffff;
+        font-size: 35px;
+    }
