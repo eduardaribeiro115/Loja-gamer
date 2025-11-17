@@ -80,3 +80,43 @@ svg {
         color: #ffffff;
         font-size: 35px;
     }
+
+    .produtos{
+        height: 450px;
+        width: 250px;
+    }
+
+    .valor{
+        font-weight: bold;
+        font-size: 20px;
+        color:#ffffff;
+    }
+    
+    .cores{
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+    }
+    
+    .vermelho{
+        background-color: red;
+    }
+
+    .azul{
+        background-color: blue;
+    }
+
+    .laranja{
+        background-color: orange;
+    }
+
+    .preto{
+        background-color: black;
+    }
+
+    .caixa-cores{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100px;
+    }
