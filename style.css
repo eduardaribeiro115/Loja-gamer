@@ -58,7 +58,7 @@ ul{
 } 
 
 .banner{
-    background-image:url("./assets/banner.png");
+    background-image:url("./assetes/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -163,7 +163,7 @@ padding: 35px; /*Espaçamento interno*/
 
     .banner-xbox{
 
-        background-image: url("./assets/x-box.png");
+        background-image: url("./assetes/x-box.png");
         background-repeat: no-repeat;
         background-size:cover;
         height: 300px;
@@ -171,3 +171,19 @@ padding: 35px; /*Espaçamento interno*/
         border-radius: 15px;
     }
     
+    .banner-xbox{
+        font-size: 20px;
+       
+    }
+
+
+    .texto-xbox{
+      text-align: end;
+      
+    }
+
+    .texto-footer{
+        color: #ffffff;
+        height: 200px;
+        width: 100;
+    }
